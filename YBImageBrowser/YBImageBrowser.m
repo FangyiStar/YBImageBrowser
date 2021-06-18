@@ -32,6 +32,7 @@
 - (void)dealloc {
     self.hiddenProjectiveView = nil;
     [self showStatusBar];
+    NSLog(@"123");
 }
 
 - (instancetype)initWithFrame:(CGRect)frame {
